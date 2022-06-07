@@ -1,0 +1,65 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Trustridetrade</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'web/images/logo/TrustRide Favicon-01.svg' %}" sizes="60x60">
+    <link rel="apple-touch-icon" href="apple-touch-icon.html">
+    
+
+    <!-- All css files are included here. -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="{% static 'web/css/bootstrap.min.css' %}">
+    <!-- Owl Carousel  main css -->
+    <link rel="stylesheet" href="{% static 'web/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/owl.theme.default.min.css' %}">
+    <!-- This core.css file contents all plugings css file. -->
+    <link rel="stylesheet" href="{% static 'web/css/core.css' %}">
+    <!-- Theme shortcodes/elements style -->
+    <link rel="stylesheet" href="{% static 'web/css/shortcode/shortcodes.css' %}">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="{% static 'web/css/style.css' %}">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="{% static 'web/css/responsive.css' %}">
+    <!-- User style -->
+    <link rel="stylesheet" href="{% static 'web/css/custom.css' %}">
+
+
+    
+</head>
+
+<body>
+
+    {% include 'web/partials/header.html' %}
+    {% block content %}
+
+    {% endblock %}
+    {% include 'web/partials/footer.html' %}
+
+  <!-- jquery latest version -->
+  <script src="{% static 'web/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+  <script src="{% static 'web/js/vendor/jquery-3.6.0.min.js' %}"></script>
+  <script src="{% static 'web/js/vendor/jquery-migrate-3.3.2.min.js' %}"></script>
+  <!-- Popper js -->
+  <script src="{% static 'web/js/popper.min.js' %}"></script>
+  <!-- Bootstrap framework js -->
+  <script src="{% static 'web/js/bootstrap.min.js' %}"></script>
+  <!-- All js plugins included in this file. -->
+  <script src="{% static 'web/js/plugins.js' %}"></script>
+  <script src="{% static 'web/js/slick.min.js' %}"></script>
+  <script src="{% static 'web/js/owl.carousel.min.js' %}"></script>
+  <!-- Waypoints.min.js' %}. -->
+  <script src="{% static 'web/js/waypoints.min.js' %}"></script>
+  <!-- Main js file that contents all jQuery plugins activation. -->
+  <script src="{% static 'web/js/main.js' %}"></script>
+ 
+
+</body>
+
+</html>
