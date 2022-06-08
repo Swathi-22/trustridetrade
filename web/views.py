@@ -6,3 +6,10 @@ def index(request):
 
     }
     return render(request,'web/index.html',context)
+
+
+def construction(request):
+    context = {
+    
+    }
+    return render(request,'web/under-construction.html',context)

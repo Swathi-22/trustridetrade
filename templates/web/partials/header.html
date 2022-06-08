@@ -51,8 +51,8 @@
                                     <li><a href="index-3.html">Home 03</a></li>
                                 </ul> -->
                             </li>
-                            <li><a href="about.html">ABOUT</a></li>
-                            <li><a href="service.html">SERVICES</a></li>
+                            <li><a href="{% url 'web:construction' %}">ABOUT</a></li>
+                            <li><a href="{% url 'web:construction' %}">PRODUCTS</a></li>
                             <!-- <li class="drop"><a href="#">pages</a>
                                 <ul class="dropdown">
                                     <li><a href="service.html">service</a></li>
@@ -68,43 +68,43 @@
                                     <li><a href="login-register.html">Log in & Register</a></li>
                                 </ul>
                             </li> -->
-                            <li class="drop"><a href="#">PROJECTS</a>
+                            <li class="drop"><a href="{% url 'web:construction' %}">GALLERY</a>
                                 <!-- <ul class="dropdown">
                                     <li><a href="projects-one.html">projects one</a></li>
                                     <li><a href="projects-two.html">projects two</a></li>
                                     <li><a href="projects-three.html">projects three</a></li>
                                 </ul> -->
                             </li>
-                            <li class="drop"><a href="blog.html">BLOG</a>
+                            <li class="drop"><a href="{% url 'web:construction' %}">UPDATES</a>
                                 <!-- <ul class="dropdown">
                                     <li><a href="blog.html">BLog</a></li>
                                     <li><a href="blog-one-column.html">blog one column</a></li>
                                     <li><a href="blog-two-column.html">blog two column</a></li>
                                 </ul> -->
                             </li>
-                            <li><a href="contact.html">CONTACT</a></li>
+                            <li><a href="{% url 'web:construction' %}">CONTACT</a></li>
                         </ul>
                     </nav>
                     <div class="mobile-menu clearfix d-lg-none d-md-block d-block">
                         <nav id="mobile_dropdown">
                             <ul>
-                                <li><a href="index.html">Home</a>
-                                    <ul>
+                                <li><a href="{% url 'web:index' %}">Home</a>
+                                    <!-- <ul>
                                         <li><a href="index.html">Home 01</a></li>
                                         <li><a href="index-2.html">Home 02</a></li>
                                         <li><a href="index-3.html">Home 03</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
-                                <li><a href="about.html">ABOUT</a></li>
-                                <li><a href="#">PROJECTS</a>
-                                    <ul>
+                                <li><a href="{% url 'web:construction' %}">About</a></li>
+                                <li><a href="{% url 'web:construction' %}">Projects</a>
+                                    <!-- <ul>
                                         <li><a href="projects-one.html">projects one</a></li>
                                         <li><a href="projects-two.html">projects two</a></li>
                                         <li><a href="projects-three.html">projects three</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
-                                <li><a href="#">pages</a>
-                                    <ul>
+                                <li><a href="{% url 'web:construction' %}">Gallery</a>
+                                    <!-- <ul>
                                         <li><a href="service.html">service</a></li>
                                         <li><a href="single-service.html">Single service</a></li>
                                         <li><a href="projects-one.html">projects one</a></li>
@@ -116,16 +116,16 @@
                                         <li><a href="blog-two-column.html">blog two column</a></li>
                                         <li><a href="blog-details.html">blog Details</a></li>
                                         <li><a href="login-register.html">Log in & Register</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li> 
-                                <li><a href="blog.html">blog</a>
-                                    <ul>
+                                <li><a href="{% url 'web:construction' %}">Updates</a>
+                                    <!-- <ul>
                                         <li><a href="blog.html">BLog</a></li>
                                         <li><a href="blog-one-column.html">blog one column</a></li>
                                         <li><a href="blog-two-column.html">blog two column</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
-                                <li><a href="contact.html">contact</a></li>
+                                <li><a href="{% url 'web:construction' %}">Contact</a></li>
                             </ul>
                         </nav>
                     </div> 

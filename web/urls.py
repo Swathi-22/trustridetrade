@@ -7,4 +7,5 @@ app_name='web'
 
 urlpatterns = [
     path('', views.index,name='index'),
+    path('under-construction/',views.construction,name='construction')
 ]
