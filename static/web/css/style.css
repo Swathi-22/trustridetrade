@@ -2129,3 +2129,7 @@ blockquote {
 .top{
     color: #05203c;
 }
+::selection {
+   
+    background: #c7a382!important;
+  }
