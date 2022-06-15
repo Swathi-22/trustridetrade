@@ -9,8 +9,8 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                     <ul class="heaher__top__left">
-                        <li><i class="fa fa-clock-o"></i>7.30 AM  -  9.30 PM</li>
-                        <li><a href="#"><i class="fa fa-phone"></i>(001)  25465  258  369</a></li>
+                        <li><i class="fa fa-clock-o"></i>7.30 AM - 9.30 PM</li>
+                        <li><a href="#"><i class="fa fa-phone"></i>(001) 25465 258 369</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
@@ -31,13 +31,14 @@
     {% endcomment %}
     <!-- End Header Top -->
     <!-- Start Mainmenu Area -->
-    <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header header-head" >
+    <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header header-head">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-2 col-md-6 logo-res">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="{% static 'web/images/logo/TrustRide Logo.svg' %}" class="logo-size" alt="logo image">
+                            <img src="{% static 'web/images/logo/TrustRide Logo.svg' %}" class="logo-size logo-res-margin"
+                                alt="logo image">
                         </a>
                     </div>
                 </div>
@@ -83,7 +84,15 @@
                                 </ul> -->
                             </li>
                             <li><a href="{% url 'web:construction' %}">CONTACT</a></li>
+
+
+
+
+
                         </ul>
+
+
+
                     </nav>
                     <div class="mobile-menu clearfix d-lg-none d-md-block d-block">
                         <nav id="mobile_dropdown">
@@ -117,7 +126,7 @@
                                         <li><a href="blog-details.html">blog Details</a></li>
                                         <li><a href="login-register.html">Log in & Register</a></li>
                                     </ul> -->
-                                </li> 
+                                </li>
                                 <li><a href="{% url 'web:construction' %}">Updates</a>
                                     <!-- <ul>
                                         <li><a href="blog.html">BLog</a></li>
@@ -127,15 +136,18 @@
                                 </li>
                                 <li><a href="{% url 'web:construction' %}">Contact</a></li>
                             </ul>
+                           
                         </nav>
-                    </div> 
-                </div>
-                <!-- <div class="col-lg-2 col-md-6 d-lg-block d-md-block d-none">
-                    <div class="htc__header__search">
-                        <input type="text" placeholder="SEARCH">
-                        <a href="#"><i class="fa fa-search"></i></a>
                     </div>
-                </div> -->
+                </div>
+                <div class="col-lg-2 col-md-6 d-lg-flex d-md-flex d-sm-flex">
+                    <div class="translation">
+                        <ul class="main__menu translation-links">
+                            <li class="trust-lang-li"><a href="#" class="spanish trust-add-trans" data-lang="Arabic">Arabic</a></li>
+                            <li class="trust-lang-li"><a href="#" class="german trust-add-trans" data-lang="English">English</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="mobile-menu-area"></div>
         </div>
@@ -143,3 +155,4 @@
     <!-- End Mainmenu Area -->
 </div>
 <!-- End Header Style -->
+<div id="google_translate_element"></div>

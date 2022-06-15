@@ -2112,7 +2112,7 @@ blockquote {
     margin: -20px 0px;
 }
 .logo-size{
-    width: 45%;
+    width: 85%;
 }
 .active{
     color: #fff;
@@ -2132,4 +2132,15 @@ blockquote {
 ::selection {
    
     background: #c7a382!important;
+  }
+  .translation{
+    color: azure;
+   
+  }
+  .trust-add-trans{
+    color: #fff !important;
+  }
+  .trust-lang-li{
+    padding: 0 5px !important;
+
   }
