@@ -7,7 +7,7 @@
 
 <!-- Body main wrapper start -->
 <div class="wrapper">
-
+    {% comment %}
     <!-- Start Slider Area -->
     <div class="slider__container">
         <div class="slider__activation__wrap owl-carousel owl-theme">
@@ -59,6 +59,79 @@
         </div>
     </div>
     <!-- Start Slider Area -->
+    {% endcomment %}
+
+
+    <!-- ********************************************************************** -->
+    <!--=========home banner start============-->
+    <div id="minimal-bootstrap-carousel" class="home3-banner carousel slide carousel-fade shop-slider full_width"
+        data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active slide-1">
+                <div class="carousel-caption">
+                    <div class="thm-container">
+                        <div class="box valign-middle">
+                            <div class="content home1-slide3">
+                                <h1 data-animation="animated fadeInUp">INDUSTRIAL TOOLS & ACCESSORIES</h1>
+                                <p data-animation="animated fadeInDown">Brosco is the leading international supplier of
+                                    industrial tools and accessories based in the Middle East.</p>
+                                   
+                                
+                                <!-- <a data-animation="animated fadeInUp" href="about.html" class="header-requestbtn learn-more hvr-bounce-to-right">learn more</a> 
+                      <a data-animation="animated fadeInUp" href="services.html" class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Our Solution</a>   -->
+                            </div>
+                            <div class="row brand-section">
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <img src="{% static 'web/images/brand/06.png' %}" class="text-center">
+                                </div>
+                                <div class="col-lg-9 col-md- col-sm-12 col-12 text-start">
+                                    <span class="">Lead Brands from TRUSTRIDE TRAIDING</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-2">
+                <div class="carousel-caption">
+                    <div class="thm-container">
+                        <div class="box valign-middle">
+                            <div class="content home1-slide3 text-center">
+                                <h1 data-animation="animated fadeInUp">POWER TOOLS & HAND TOOLS </h1>
+                                <p data-animation="animated fadeInDown">Get the most suitable power tools and hand tools
+                                    for your necessities from Brosco.</p>
+                                <!-- <a data-animation="animated fadeInUp" href="about.html" class="header-requestbtn learn-more hvr-bounce-to-right btn-center">learn more</a> 
+                      <a data-animation="animated fadeInUp" href="services.html" class="header-requestbtn learn-more our-solution hvr-bounce-to-right btn-center">Our Solution</a>   -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-3">
+                <div class="carousel-caption">
+                    <div class="thm-container">
+                        <div class="box valign-middle">
+                            <div class="content home1-slide3 text-center">
+                                <h1 data-animation="animated fadeInUp">FASTENING TOOLS</h1>
+                                <p data-animation="animated fadeInDown">Get yourself amazing fastening tools from Brosco
+                                    and ease your work with perfection.</p>
+                                <!-- <a data-animation="animated fadeInUp" href="about.html" class="header-requestbtn learn-more hvr-bounce-to-right btn-center">learn more</a> 
+                      <a data-animation="animated fadeInUp" href="services.html" class="header-requestbtn learn-more our-solution hvr-bounce-to-right btn-center">Our Solution</a>   -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#minimal-bootstrap-carousel" role="button" data-slide="prev"> <i
+                class="fa fa-angle-left"></i> <span class="sr-only">Previous</span> </a> <a
+            class="right carousel-control" href="#minimal-bootstrap-carousel" role="button" data-slide="next"> <i
+                class="fa fa-angle-right"></i> <span class="sr-only">Next</span> </a>
+    </div>
+    <!--=========home banner end============-->
+    <!-- ********************************************************************** -->
     <!-- Start Offer Area -->
     <section class="htc__offer__area htc__offer--2 pb--120 bg__gray">
         <div class="container">
@@ -70,7 +143,8 @@
                         </div>
                         <div class="offer__details">
                             <h2><a href="#" class="top">TOP RATED</a></h2>
-                            <p>Trustride Trading Est delivers the top-rated industrial equipments and power tools for every
+                            <p>Trustride Trading Est delivers the top-rated industrial equipments and power tools for
+                                every
                                 customer to enhance the excellence in work.</p>
                         </div>
                     </div>
@@ -101,9 +175,9 @@
                 </div>
             </div>
         </div>
-        <div class="h1__offer__image">
+        <!-- <div class="h1__offer__image">
             <img src="{% static 'web/images/others/3.png' %}" alt="">
-        </div>
+        </div> -->
     </section>
     <!-- End Offer Area -->
     <!-- Start About Area -->
@@ -114,18 +188,20 @@
                     <div class="section__title text-center">
 
                         <h2 class="title__line">ABOUT <span class="text--theme">TRUSTRIDE</span></h2>
-                        <p>Trustride is a prominent industrial equipments,power tools and spare parts dealer in the Middle East that looks
+                        <p>Trustride is a prominent industrial equipments,power tools and spare parts dealer in the
+                            Middle East that looks
                             forward to delivering high-grade products to its customers.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row mt--70">
-                <div class="col-lg-4 col-xl-3 offset-xl-1 col-md-6 col-12">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-12">
                     <div class="about foo">
                         <div class="about__inner">
                             <h2><a href="about.html" class="story">OUR STORY</a></h2>
-                            <p>We are a well-established company in the Middle East with over 15+ years of experience and
+                            <p>We are a well-established company in the Middle East with over 15+ years of experience
+                                and
                                 now we are expanding our business by opening new business brands and trading.</p>
                             <div class="about__btn">
                                 <a href="about.html">READ MORE</a>
@@ -136,7 +212,8 @@
                         </div>
                         <div class="about__inner about__hober__info">
                             <h2><a href="about.html" class="our-story">OUR STORY</a></h2>
-                            <p>We are a well-established company in the Middle East with over 15+ years of experience and
+                            <p>We are a well-established company in the Middle East with over 15+ years of experience
+                                and
                                 now we are expanding our business by opening new business brands and trading.</p>
                             <div class="about__btn">
                                 <a href="about.html">READ MORE</a>
@@ -179,7 +256,8 @@
                     <div class="about foo">
                         <div class="about__inner">
                             <h2><a href="about.html">OUR VISION</a></h2>
-                            <p>Being one of the leading dealers of industrial equipment, power tools and spare parts in the Middle East, we
+                            <p>Being one of the leading dealers of industrial equipment, power tools and spare parts in
+                                the Middle East, we
                                 strive to deliver products of exceptional quality at the best price possible.</p>
                             <div class="about__btn">
                                 <a href="about.html">READ MORE</a>
@@ -190,7 +268,8 @@
                         </div>
                         <div class="about__inner about__hober__info">
                             <h2><a href="about.html" class="our-story">OUR VISION</a></h2>
-                            <p>Being one of the leading dealers of industrial equipment, power tools and spare parts in the Middle East, we
+                            <p>Being one of the leading dealers of industrial equipment, power tools and spare parts in
+                                the Middle East, we
                                 strive to deliver products of exceptional quality at the best price possible.</p>
                             <div class="about__btn">
                                 <a href="about.html">READ MORE</a>
@@ -234,13 +313,14 @@
                             </div>
 
                             <div class="row">
-                                
+
                                 <!-- Start Single Service -->
                                 <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6 col-12">
                                     <div class="service">
                                         <div class="service__thumb">
                                             <a href="single-service.html">
-                                                <img src="{% static 'web/images/service/industrial.jpg' %}" alt="service images">
+                                                <img src="{% static 'web/images/service/industrial.jpg' %}"
+                                                    alt="service images">
                                             </a>
                                             <div class="service__hover">
                                                 <!-- <div class="service__action">
@@ -259,7 +339,8 @@
                                     <div class="service">
                                         <div class="service__thumb">
                                             <a href="single-service.html">
-                                                <img src="{% static 'web/images/service/machinery.jpg' %}" alt="service images">
+                                                <img src="{% static 'web/images/service/machinery.jpg' %}"
+                                                    alt="service images">
 
                                             </a>
                                             <div class="service__hover">
@@ -279,7 +360,8 @@
                                     <div class="service">
                                         <div class="service__thumb">
                                             <a href="single-service.html">
-                                                <img src="{% static 'web/images/service/construction.jpg' %}" alt="service images">
+                                                <img src="{% static 'web/images/service/construction.jpg' %}"
+                                                    alt="service images">
                                             </a>
                                             <div class="service__hover">
                                                 <!-- <div class="service__action">
@@ -293,8 +375,8 @@
                                     </div>
                                 </div>
                                 <!-- End Single Service -->
-                                
-                                
+
+
 
 
 
@@ -423,7 +505,8 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-12">
                     <div class="htc__callto__action">
-                        <h2># BEST <span class="text--theme">DEALERS OF INDUSTRIAL</span> EQUIPMENTS AND POWER TOOLS</h2>
+                        <h2># BEST <span class="text--theme">DEALERS OF INDUSTRIAL</span> EQUIPMENTS AND POWER TOOLS
+                        </h2>
                         <p>Make ease of your construction with our advanced tools and equipment.</p>
                         <!-- <div class="htc__call__btn">
                             <a class="htc__btn" href="#">BUY NOW</a>

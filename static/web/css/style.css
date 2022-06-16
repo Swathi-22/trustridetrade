@@ -2109,7 +2109,7 @@ blockquote {
 }
 .header-head{
     background-color: #05203c;
-    margin: -20px 0px;
+    margin: -34px 0px;
 }
 .logo-size{
     width: 85%;
@@ -2143,4 +2143,7 @@ blockquote {
   .trust-lang-li{
     padding: 0 5px !important;
 
+  }
+  .brand-section{
+    padding: 0px 371px !important;
   }
