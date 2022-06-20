@@ -4109,17 +4109,32 @@ ul.category-list li i.fa {
 }
 
 .home3-banner .slide-1{
-	background-image: url(../images/power.jpg);
+	background-image: url(../images/02.jpg);
 	background-position: center right;
 }
 .home3-banner .slide-2{
-	background-image: url(../images/industry.jpg);
+	background-image: url(../images/BOSCH.jpg);
 	background-position: center right;
 }
 .home3-banner .slide-3{
+	background-image: url(../images/makita.jpg);
+	background-position: center right;
+}
+.home3-banner .slide-4{
+	background-image: url(../images/STANLEY.jpg);
+	background-position: center right;
+}
+
+.home3-banner .slide-5{
 	background-image: url(../images/fast.jpg);
 	background-position: center right;
 }
+
+.home3-banner .slide-6{
+	background-image: url(../images/fast.jpg);
+	background-position: center right;
+}
+
 
 .home4 .slide-1{
 	background-image: url(../images/home4-images/home4-slide1.jpg);
