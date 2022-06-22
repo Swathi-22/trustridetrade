@@ -511,7 +511,7 @@ About 2
 }
 
 .htc__offer__area.htc__offer--2 {
-    padding-top: 130px;
+    padding-top: 50px;
 }
 .htc__offer--2 .h1__offer__image {
   position: absolute;
@@ -2109,10 +2109,10 @@ blockquote {
 }
 .header-head{
     background-color: #05203c;
-    margin: -34px 0px;
+    margin: -25px 0px;
 }
 .logo-size{
-    width: 85%;
+    width: 90%;
 }
 .active{
     color: #fff;

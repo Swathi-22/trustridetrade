@@ -106,6 +106,10 @@
 	padding: 0;
 	text-align: left;
 	text-shadow: none;
+	/* z-index: 10;
+    opacity: 0.6;
+    background: black; */
+	background-color: rgba(0, 0, 0, 0.5);
 }
 #minimal-bootstrap-carousel .carousel-caption .thm-container {
 	display: table;
@@ -129,7 +133,7 @@
 	vertical-align: middle;
 }
 #minimal-bootstrap-carousel .carousel-caption .thm-container .box .content {
-	float:left;
+	/* float:left; */
 	width:100%;
 }
 
